@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to [[${platformName}]]!</title>
+    <style>
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f4f4f4;
+        }
+        .container {
+          max-width: 600px;
+          margin: auto;
+          background-color: #ffffff;
+          padding: 30px;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+          text-align: center;
+          padding-bottom: 20px;
+        }
+        .header img {
+          width: 100px;
+        }
+        .content {
+          font-size: 16px;
+          line-height: 1.6;
+          color: #333333;
+        }
+        .button {
+          display: inline-block;
+          margin-top: 25px;
+          padding: 12px 24px;
+          background-color: #ff0000;
+          color: white;
+          text-decoration: none;
+          border-radius: 4px;
+          font-weight: bold;
+        }
+        .footer {
+          margin-top: 30px;
+          font-size: 12px;
+          color: #999999;
+          text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <!-- Replace with your logo -->
+        <img src="https://your-platform-logo-url.com/logo.png" alt="[Platform Name] Logo">
+        <h2>Welcome to [Platform Name]!</h2>
+    </div>
+
+    <div class="content">
+        <p>Hi <strong>[[${userName}]]</strong>,</p>
+        <p>Thank you for registering with <strong>[Platform Name]</strong>. We're excited to have you on board!</p>
+        <p>Your account has been successfully created. You can now explore, watch, upload, and share amazing content.</p>
+
+        <a href="[Platform Login URL]" class="button">Go to Your Account</a>
+    </div>
+
+    <div class="footer">
+        <p>If you did not create this account, please ignore this email.</p>
+        <p>&copy; [Year] [Platform Name]. All rights reserved.</p>
+    </div>
+</div>
+</body>
+</html>
