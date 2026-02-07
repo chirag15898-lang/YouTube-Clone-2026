@@ -1,6 +1,5 @@
 package com.youtube.video_service.config;
 
-import com.youtube.video_service.util.ApiTemplate;
 import com.youtube.video_service.util.ApiTemplateImpl;
 import io.imagekit.sdk.ImageKit;
 import io.imagekit.sdk.config.Configuration;
@@ -8,8 +7,6 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
-
-import java.util.Properties;
 
 @org.springframework.context.annotation.Configuration
 public class AppConfig {

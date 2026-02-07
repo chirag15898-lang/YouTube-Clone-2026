@@ -2,9 +2,7 @@ package com.youtube.video_service.service;
 
 import com.youtube.video_service.dto.IsValidDTO;
 import com.youtube.video_service.dto.SecurityCredential;
-import com.youtube.video_service.dto.VideoDetailRequestBody;
 import com.youtube.video_service.dto.VideoDetailsDTO;
-import com.youtube.video_service.util.ApiTemplate;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
